@@ -1,0 +1,237 @@
+header{
+    font-size: 24px;
+    color: white;
+}
+
+.header{
+    position: absolute;
+    background-color: #333333;
+    padding: 5px 20px;
+    z-index: 1;
+    height: 31px;
+}
+
+.header-left{
+    left: 0;
+}
+
+.header-right{
+    right: 0;
+}
+
+.header .divider{
+    display: none;
+}
+
+.header .divider:after{
+    width: 2px;
+    border: 1px solid white;
+}
+
+.front-logo{
+    height: 360px;
+    position: relative;
+}
+
+/*.front-logo:before{
+    content: "Разом";
+    font-size: 128px;
+    line-height: 128px;
+    display: inline; 
+    position: absolute;
+    bottom: 40%;
+    left: 212px;
+}
+
+.front-logo:after{
+    content: "можливо все.";
+    font-size: 36px;
+    line-height: 36px;    
+    display: inline;    
+    position: absolute;    
+    top: 60%;    
+    left: 288px;
+}*/
+
+.front-logo h1{
+    font-size: 128px;
+    line-height: 128px;
+    font-weight: normal;
+    display: inline; 
+    position: absolute;
+    bottom: 40%;
+    left: 212px;
+    margin: 0;
+}
+
+.front-logo h2{
+    font-size: 36px;
+    line-height: 36px;    
+    font-weight: normal;
+    display: inline;    
+    position: absolute;    
+    top: 60%;    
+    left: 288px;
+    margin: 0;
+}
+
+.search-wrapper{
+    position: relative;
+    margin: 40px;
+    width: auto;
+}
+
+.search-input{
+    width: 720px;
+    padding: 5px;
+    padding-right: 50px;
+    background: none;
+    font-size: 140%;
+    vertical-align: baseline;
+    font-family: inherit;
+    color: inherit;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.search-btn {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.center-text {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    display: block;
+}
+
+ul li {
+    list-style: none;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul li.to-all-li{
+    float: right;
+    display: block;
+    margin-top: 0 !important;
+    width: auto;
+    border: 0;
+    height: auto;
+}
+
+.lines {
+    position: relative;
+    margin: 20px 100px;
+}
+
+.lines > li {
+    width: 100%;
+    border: 1px solid black;
+    height: 80px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.lines > li a{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.tiles {
+    position: relative;
+}
+
+.tiles li {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+
+.tiles-3{
+    margin: 20px 32px;
+}
+
+.tiles-3 > li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.tiles-4{
+    margin: 20px 49px;
+}
+
+.tiles-4 > li{
+    display: inline-block;
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+}
+
+ul:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+.menu-right {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    left: 0;
+    top: 0;
+    min-width: 170px;
+    width: auto;
+    z-index: 2;
+}
+
+.menu-right ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.menu-right ul li{
+    padding: 10px;
+}
+
+.menu-right a{
+    color: white;
+    text-decoration: none;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 400px;
+    margin: -200px 0 0 -300px;
+    z-index: 1000;
+}
